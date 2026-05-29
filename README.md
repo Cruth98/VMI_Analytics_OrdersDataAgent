@@ -111,14 +111,14 @@ most common planning use cases:
 
 ## Documentation
 
-### End User Guide (`Sazerac_vw_Orders_Base_EndUser_Guide.pdf`)
+### End User Guide (`vw_Orders_Base_EndUser_Guide.pdf`)
 
 Plain-English reference for non-technical planners. Covers what the 
 dataset is, what questions it can answer, a field-by-field guide in 
 plain English, common filters, and key terms. Designed to be distributed 
 to planners who interact with the agent but have no SQL background.
 
-### Technical Reference (`Sazerac_vw_Orders_Base_Technical_Reference.pdf`)
+### Technical Reference (`vw_Orders_Base_Technical_Reference.pdf`)
 
 Full technical documentation for the underlying order views. Covers:
 
@@ -137,12 +137,14 @@ Full technical documentation for the underlying order views. Covers:
 
 ```
 DataAgent_POC/
-├── agent_instructions.md          # Governed agent instruction set
-├── data_source_descriptions.md    # Per-view descriptions for agent config
-├── examples.json                  # 8 example queries seeded into agent
-└── docs/
-    ├── Sazerac_vw_Orders_Base_EndUser_Guide.pdf
-    └── Sazerac_vw_Orders_Base_Technical_Reference.pdf
+VMI_Analytics_OrdersDataAgent/
+├── agent_instructions.md             # Governed agent instruction set
+├── data_source_descriptions.md       # Per-view descriptions for agent config
+├── examples.json                     # 8 example queries seeded into agent
+├── RedactedPOC_Example.png           # Example natural language query and response
+└── TechnicalDocumentation/
+    ├── vw_Orders_Base_EndUser_Guide.pdf
+    └── vw_Orders_Base_Technical_Reference.pdf
 ```
 
 ---
